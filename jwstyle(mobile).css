@@ -22,9 +22,11 @@ h2 {
 }
 h3 {
     font-size: 2.4em;
+    text-align: center;
 }
 h4 {
     font-size: 1.8em;
+    text-align: center;
 }
 
 /* ----------기본 폰트 스타일 끝---------- */
@@ -194,7 +196,7 @@ header {
 
 .speech-bubble {
     border-radius: 3em;
-    height: 70vh;
+    height: 80vh;
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -253,7 +255,7 @@ header {
     height: 27em;
 }
 .priciple-board {
-    height: 85%;
+    height: 90%;
 }
 
 .principle-title {
@@ -262,9 +264,15 @@ header {
 }
 
 .priciple-content {
+    display: none;
+}
+.priciple-content-mobile {
+    width: 100%;
     color: #000000;
-    font-size: 1em;
-    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

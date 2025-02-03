@@ -363,7 +363,7 @@ header {
     line-height: 1.8em;
     font-weight: 500;
     text-align: center;
-    width: 80%;
+    width: 85%;
 }
 
 .highlight {
@@ -388,7 +388,7 @@ header {
 
 .background-masking {
     width: 85%;
-    height: 80%;
+    height: 85vh;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -451,7 +451,7 @@ header {
     width: 48%;
     height: 100%;
     position: relative;
-    padding: 1.5em 2em 0;
+    padding: 1.5em 2.15em 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -470,6 +470,9 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
+}
+.priciple-content-mobile {
+    display: none;
 }
 .card-name {
     display: flex;
@@ -648,6 +651,13 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;    
+}
+
+.portfolio-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
 }
 
 .portfolio-card-list {
