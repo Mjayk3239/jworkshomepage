@@ -1,0 +1,718 @@
+
+/* ----------네비게이션 헤더 : 메뉴---------- */
+
+header {
+    background: rgba(255, 255, 255, 0);
+    padding: 2rem 3rem;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.jworkslogo {
+    width: 2.5rem;
+    height: auto;
+    position: sticky;
+}
+
+.nevigation {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    align-items: center;
+    position: sticky;
+}
+
+.menu {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 1em;
+    font-weight: bold;
+}
+.menu:hover {
+    color: #c4121a;
+}
+
+.hamburger-button {
+    display: none;
+    }
+
+/* ----------네비게이션 헤더 : 메뉴 끝---------- */
+
+
+/* ----------메인화면(Home)---------- */
+
+#Home {
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-title {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6em;
+    text-align: center;
+}
+
+/* ----------메인화면(Home) 끝---------- */
+
+
+/* ----------회사 소개(Introduction)---------- */
+
+#Introduction {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intro-board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.intro {
+    width: 50%;
+    max-width: 36em;
+}
+
+.intro-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 0.25em;
+}
+
+.line-dott {
+    margin: 1.5em 0;
+    border-style: dotted;
+    border-color: #000000;
+    border-width: 0.15em 0 0 0;
+    width: 100%;
+    height: 0.5em;
+    position: relative;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.intro-content-comment {
+    color: #000000;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.intro-content-company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 0.8em;
+}
+
+.intro-content-company-info-text {
+    color: #000000;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.intro-image {
+    width: 32em;
+    height: 32em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.introimg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 4em;
+    z-index: 1;
+}
+
+.rectangle-R {
+    background: #c4171e;
+    width: 22em;
+    height: 22em;
+    box-shadow: 0 0.8em 0.8em 0.4em rgba(0, 0, 0, 0.25),
+    inset 0 0 4em 1em rgba(138, 0, 0, 0.5),
+    inset 0 0 0.25em 0.45em rgba(217, 119, 119, 0.5);
+    transform: translate(-50%, -50%);
+    transform: rotate(-50deg);
+}
+.rectangle-W {
+    background: #fff9f4;
+    width: 22em;
+    height: 22em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.8em 0.8em 0.4em rgba(0, 0, 0, 0.25),
+    inset 0 0 4em 0.25em rgba(253, 128, 89, 0.5),
+    inset 0 0 0.3em 0.3em rgba(255, 230, 228, 1);
+    transform: translate(-50%, -50%);
+    transform: rotate(25deg);
+    z-index: 2;
+}
+
+.jworkslogo-intro {
+    width: 8em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-25deg);
+}
+
+.softlight {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16em;
+    width: 7.5em;
+    height: 16.25em;
+    position: absolute;
+    transform: rotate(-25deg);
+    filter: blur(2em);
+    z-index: 3;
+}
+
+.starlight {
+    width: 3.5em;
+    height: 3.5em;
+    position: absolute;
+    top: 61%;
+    left: 52.6%;
+    transform: rotate(-25deg);
+    z-index: 4;
+}
+
+.star {
+    top: 50%;
+}
+
+.light-rotate-0 {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 0.15em;
+    height: 3.5em;
+    position: absolute;
+    filter: blur(2.5px);
+    z-index: 5;
+}
+
+.light-rotate-90 {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 0.15em;
+    height: 3.5em;
+    position: absolute;
+    transform: rotate(90deg) scale(1, 1);
+    filter: blur(2.5px);
+    z-index: 5;
+}
+
+.light-rotate-45 {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 0.15em;
+    height: 3.5em;
+    position: absolute;
+    transform: rotate(45deg) scale(1, 1);
+    filter: blur(2.5px);
+    z-index: 5;
+}
+
+.light-rotate--45 {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 0.15em;
+    height: 3.5em;
+    position: absolute;
+    transform: rotate(-45deg) scale(1, 1);
+    filter: blur(2.5px);
+    z-index: 5;
+}
+
+/* ----------회사 소개(Introduction)---------- 끝 */
+
+
+/* ----------인사말(Greeting)---------- */
+
+#Greeting {
+    background: #c4121a;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.greeting-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: -0.75em;
+}
+
+.speech-bubble {
+    background-color: #fff;
+    border-radius: 3em;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2em;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.6);
+}
+.speech-bubble-tail {
+    background-color: #fff;
+    border-radius: 0.5em;
+    width: 5em; 
+    height: 5em; 
+    margin-left: 5%;
+    position: absolute;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    display: inline-block;
+    filter: drop-shadow(10px 10px 100px rgba(0, 0, 0, 0.5));
+}
+
+.title-deco {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.greeting-title {
+    margin-left: 0.25em;
+    margin-right: 0.25em; 
+}
+
+.ellipse-fill {
+    background: #c4121a;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+}
+
+.ellipse-stroke {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #c4121a;
+    border-width: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+}
+
+.greeting-content {
+    color: #000000;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+}
+
+.highlight {
+    color: #c4121a;
+    font-weight: 700;
+    }
+
+/* ----------인사말(Greeting) 끝---------- */
+
+
+/* ----------기본원칙(Principle)---------- */
+
+#Principle {
+    background: #eeeeee;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-masking {
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.mask-group {
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    overflow: visible;
+    z-index: 0;
+}
+
+.priciple-board {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.principle-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.priciple-content {
+    color: #000000;
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.principle-card-list {
+    width: 100%;
+    height: 65%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.principle-card-group {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.principle-card {
+    background: #ffffff;
+    border-radius: 3.2em 0 3.2em 0;
+    width: 48%;
+    height: 100%;
+    position: relative;
+    padding: 1.5em 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16%;
+    box-shadow: 1.2em 1.2em 2em 0 rgba(0, 0, 0, 0.5);
+}
+.principle-card-icon {
+    width: 3em;
+    height: 3em;
+    position: relative;
+}
+.principle-card-content {
+    width: 100%;
+    min-height: 10em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.card-name-ko {
+    color: #c4121a;
+    text-align: left;
+    font-size: 1.38em;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.card-name-en {
+    color: #000000;
+    text-align: left;
+    font-size: 0.94em;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    min-height: 2.81em;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.card-explain {
+    color: #000000;
+    text-align: left;
+    font-size: 0.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    min-height: 3.75em;
+    display: inline-block;
+    /* margin-bottom: 1em; */
+}
+.word {
+    display: inline-block;
+    margin-bottom: 0.2em;
+    text-align: left;
+}
+
+/* ----------기본원칙(Principle) 끝---------- */
+
+
+/* ----------비즈니스 영역(Business-area)---------- */
+
+#Business-area {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.business-area-board {
+    height: 93.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.business-area-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.business-area-card-list {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.business-area-card-group {
+    width: 100%;
+    height: 49.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.business-area-card {
+    background-color: #f5f5f5;
+    border-radius: 1.5em;
+    width: 49%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    background-color: #676767;
+    border-radius: 1.5em;
+    width: 50%;
+    min-width: 10em;
+    max-width: 12em;
+    height: 31.5%;
+    min-height: 3.35em;
+    padding: 0.5em 1.5em 0.5em;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-area-list {
+    width: 97.5%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-base-third {
+    background-color: #fff;
+    border-radius: 0.63em;
+    width: 32.6%;
+    height: 100%;
+    min-height: 4em;
+    padding: 0 0.25em 0;
+    font-size: 0.88em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-base-half {
+    background-color: #fff;
+    border-radius: 0.63em;
+    width: 49.5%;
+    height: 100%;
+    min-height: 4em;
+    padding: 0 0.3em 0;
+    font-size: 0.88em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------비즈니스 영역(Business-area) 끝---------- */
+
+
+/* ----------포트폴리오(Portfolio)---------- */
+
+#Portfolio {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.portfolio-board {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.portfolio-card-list {
+    width: 100%;
+    height: 72.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.portfolio-card-group {
+    height: 20.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio-card, .portfolio-card-third {
+    background-color: #fff;
+    border-radius: 1.5em;
+    padding: 1em 1.5em 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+.portfolio-card {
+    width: 100%;
+    justify-content: center;
+}
+.portfolio-card-third {
+    width: 32.8%;
+    justify-content: flex-start;
+}
+.portfolio-card div.card-img {
+    width: 20%;
+    height: 3.75em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.portfolio-card-third div.card-img {
+    width: 32.5%;
+    min-width: 4.8em;
+    height: 3.75em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+img.card-img {
+    width: 100%;
+    min-width: 4.8em;
+    max-width: 9em;
+}
+
+.etc {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1em;
+}
+.circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 0.63em;
+    height: 0.63em;
+}
+
+/* ----------포트폴리오(Portfolio) 끝---------- */
