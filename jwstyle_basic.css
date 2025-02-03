@@ -53,8 +53,6 @@ h4 {
 h3, h4 {
     margin: 0;
     line-height: 1.2em;
-    word-break: keep-all;
-    word-wrap: break-word;
 }
 
 /* ----------기본 폰트 스타일 끝----------  */

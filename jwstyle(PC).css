@@ -708,7 +708,7 @@ img.card-img {
     justify-content: end;
     gap: 1em;
 }
-.circle {
+.ellipse {
     background-color: #fff;
     border-radius: 50%;
     width: 0.63em;
