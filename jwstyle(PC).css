@@ -292,7 +292,7 @@ header {
     position: relative;
 }
 
-.greeting-title {
+.greeting {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -311,17 +311,24 @@ header {
     justify-content: center;
     gap: 3.2em;
     box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 .speech-bubble-tail {
-    background-color: #fff;
-    border-radius: 0.5em;
+    /* background-color: #fff;
+    border-radius: 0.5em; */
     width: 5em; 
     height: 5em; 
     margin-left: 5%;
     position: absolute;
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
-    display: inline-block;
-    filter: drop-shadow(10px 10px 100px rgba(0, 0, 0, 0.5));
+    z-index: 3;
+}
+.speech-bubble-tail-shadow {
+    opacity: 0.8;
+    width: 6em; 
+    height: 6em; 
+    margin-left: 6%;
+    position: absolute;
+    z-index: 1;
 }
 
 .title-deco {
@@ -666,6 +673,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.portfolio-card-list-mobile {
+    display: none;
 }
 .portfolio-card-group {
     height: 20.5%;

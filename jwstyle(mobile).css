@@ -201,7 +201,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 4em;
 }
 
@@ -212,6 +212,7 @@ header {
 
 .title-deco {
     width: 100%;
+    height: 10%;
 }
 
 .ellipse-fill {
@@ -271,7 +272,7 @@ header {
     color: #000000;
     font-size: 1.25em;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -279,7 +280,7 @@ header {
 }
 
 .principle-card-list {
-    height: 80%;
+    height: 90%;
     flex-direction: column;
 }
 .principle-card-group {
@@ -387,24 +388,33 @@ header {
     height: 95%;
 }
 .portfolio-card-list {
-    height: 85%;
-    justify-content: space-between;
+    display: none;
 }
-.portfolio-card-group {
-    height: 100%;
+.portfolio-card-list-mobile {
+    width: 100%;
+    height: 85%;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.portfolio-card-third {
-    height: 32.8%;
-}
-.portfolio-card, .portfolio-card-third {
+.portfolio-card {
     width: 100%;
-    justify-content: space-evenly;
+    height: 9.2%;
+    padding: 1em 2.8em 1em 1.5em;
+    justify-content: space-between;
 }
-.portfolio-card div.card-img, .portfolio-card-third div.card-img {
-    width: 35%;
+.portfolio-card div.card-img {
+    width: 32%;
     justify-content: center;
+}
+.portfolio-card img.card-img {
+    width: 100%;
+    min-width: 5em;
+    max-width: 10em;
+}
+.portfolio-card p {
+    font-size: 1.25em;
+    text-align: end;
 }
 
 /* ----------포트폴리오(Portfolio) 끝---------- */

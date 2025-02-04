@@ -71,7 +71,7 @@ main, section {
 
 /* ----------기본 화면 사이즈 끝---------- */
 
-.intro-content-comment, .greeting-content, .priciple-content, .card-explain, .card-base-third, .card-base-half, .portfolio-card-group p {
+.intro-content-comment, .greeting-content, .priciple-content-mobile, .card-explain, .card-base-third, .card-base-half, .portfolio-card-group p {
     word-break: keep-all;
     word-wrap: break-word;
 }
