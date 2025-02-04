@@ -561,15 +561,23 @@ body {
 
 /* ----------인사말(Greeting)---------- */
 
-.speech-bubble {
-    width: 100%;
-    height: 65vh;
-    padding: 2.4em;
-    gap: 3.6em;
-}
 .speech-bubble-tail {
     width: 4em; 
     height: 4em; 
+}
+.speech-bubble-tail-shadow {
+    opacity: 0.8;
+    width: 5em; 
+    height: 5em; 
+    margin-left: 6%;
+}
+div.greeting {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .ellipse-fill {
