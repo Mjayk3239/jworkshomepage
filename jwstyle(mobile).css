@@ -392,7 +392,7 @@ header {
 }
 .portfolio-card-list-mobile {
     width: 100%;
-    height: 85%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -400,11 +400,12 @@ header {
 .portfolio-card {
     width: 100%;
     height: 9.2%;
-    padding: 1em 2.8em 1em 1.5em;
+    padding: 1em 3em 1em;
     justify-content: space-between;
 }
 .portfolio-card div.card-img {
     width: 32%;
+    max-width: 10em;
     justify-content: center;
 }
 .portfolio-card img.card-img {
@@ -413,6 +414,7 @@ header {
     max-width: 10em;
 }
 .portfolio-card p {
+    width: 40%;
     font-size: 1.25em;
     text-align: end;
 }
